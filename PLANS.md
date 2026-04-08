@@ -604,6 +604,57 @@ The first concrete implementation actions should be:
 
 Use this backlog as the working checklist. Each notebook must be verified before moving on to the next one.
 
+### Per-Notebook Verification Checklist
+
+Every `Verify notebook N` step in this section should include all of the checks below before the notebook is considered complete.
+
+1. Execution verification
+   - Execute the notebook end to end from a clean kernel.
+   - Confirm every code cell runs without manual intervention.
+   - Confirm imports, helper functions, and package paths work in the intended environment.
+   - Confirm printed outputs and derived values are numerically plausible for the scenario being taught.
+
+2. Technical correctness verification
+   - Confirm equations, definitions, and parameter values match the intended concept.
+   - Confirm plotted data matches the explanation in the markdown text.
+   - Confirm sign conventions, units, coordinate conventions, and indexing choices are internally consistent.
+   - Confirm tradeoff statements are supported by visible examples, not only prose.
+
+3. Figure and visualization verification
+   - Inspect rendered figure images directly, not only the plotting code.
+   - Confirm legends do not cover important data and are placed intentionally.
+   - Confirm axis labels, titles, units, tick labels, and font sizes are readable.
+   - Confirm line colors, marker styles, and contrast make overlaid signals distinguishable.
+   - Confirm subplot spacing, aspect ratios, and margins are adequate.
+   - Confirm annotations and callouts do not overlap with plotted content.
+   - Confirm heatmaps, images, and colorbars use readable scales and labels.
+   - Confirm figures communicate the intended lesson without requiring code inspection to interpret them.
+
+4. Pedagogical verification
+   - Confirm the notebook states its purpose and learning objective clearly.
+   - Confirm the notebook introduces concepts in the intended progression from simple to more complex.
+   - Confirm assumptions and simplifications are stated explicitly.
+   - Confirm the notebook includes at least one meaningful simulation and visualization.
+   - Confirm the notebook includes a tradeoffs or limitations section.
+   - Confirm the notebook ends with a recap and suggested next questions or next steps.
+
+5. Reusability and helper-layer verification
+   - Confirm duplicated logic is only promoted into shared helpers when it is genuinely reusable.
+   - Confirm helper APIs used by the notebook are stable, named clearly, and still minimal.
+   - Confirm notebook-specific teaching code remains in the notebook unless reuse is justified.
+   - Confirm any helper changes required by verification are covered by tests where practical.
+
+6. Sequence verification
+   - Confirm notation, terminology, and assumptions remain consistent with earlier notebooks.
+   - Confirm the notebook can be understood after reading only its stated prerequisites.
+   - Confirm the transition to the next notebook is explicit and accurate.
+
+7. Final user verification
+   - Present the rendered notebook to the user for review after technical verification is complete.
+   - Ask the user to check explanation quality, figure readability, legend placement, and teaching clarity.
+   - Record any user-requested fixes before marking the notebook verified.
+   - Do not begin the next notebook until the user confirms the current notebook is acceptable.
+
 - [ ] Verify notebook 1 end to end.
 - [ ] Fix any notebook 1 issues found during verification.
 - [ ] Stabilize `plotting.py`, `notebook_utils.py`, and `dsp.py` only where notebook 1 verification exposes gaps.
