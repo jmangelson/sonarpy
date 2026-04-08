@@ -1,0 +1,79 @@
+# SonarPy
+
+SonarPy is a notebook-first educational project for building intuition in digital signal processing, beamforming, and synthetic aperture sonar (SAS). The material is structured as a progressive curriculum that starts with basic DSP principles and ends with a simplified, simulation-backed SAS processing pipeline.
+
+This repository is designed for two uses:
+
+- learning or refreshing core signal processing concepts,
+- and building a practical understanding of the tradeoffs behind SAS development decisions.
+
+## Project Layout
+
+```text
+SonarPy/
+  SPEC.md
+  PLANS.md
+  README.md
+  pyproject.toml
+  notebooks/
+  src/
+    sonar_py_lib/
+  data/
+    generated/
+  figures/
+  tests/
+```
+
+## Planned Notebook Progression
+
+The notebooks are intended to be studied in order:
+
+1. Signals, systems, and sampling
+2. Sinusoids, complex exponentials, and phase
+3. Fourier transform and spectral intuition
+4. Convolution, filtering, and matched filters
+5. Noise, detection, and estimation
+6. Sonar basics, propagation, and time of flight
+7. Chirps, pulse compression, and range resolution
+8. Target scene modeling and echo synthesis
+9. Array geometry and spatial sampling
+10. Conventional beamforming
+11. Beamforming tradeoffs and practical effects
+12. Synthetic aperture intuition
+13. SAS signal model and phase history
+14. SAS focusing and image formation
+15. SAS pipeline end to end
+16. Design tradeoffs and development decisions
+
+## Environment Setup
+
+The project uses `pyproject.toml` as the initial environment definition.
+
+Create the environment with your preferred Python workflow. One straightforward option is:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .[dev]
+```
+
+Then launch Jupyter:
+
+```bash
+jupyter lab
+```
+
+## Running Notebooks
+
+- Start Jupyter from the repository root.
+- Install the project with `pip install -e .[dev]` before notebook execution when possible.
+- Notebook `01_signals_systems_and_sampling.ipynb` also bootstraps `src/` automatically through `notebooks/_bootstrap.py`, which helps after repository moves or fresh checkouts.
+- Work through notebooks in numeric order.
+- Keep reusable code in `src/sonar_py_lib/`.
+- Keep notebook-specific teaching code in the notebook unless it becomes clearly reusable.
+
+## Development Notes
+
+- Shared utilities should remain simple and notebook-driven.
+- Simulations should begin with idealized cases before more realistic perturbations are introduced.
+- Tradeoff discussion is a required part of each notebook, not an optional add-on.
