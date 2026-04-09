@@ -180,6 +180,7 @@ Each notebook should include:
 - Title and short statement of purpose
 - Prerequisites and links to earlier notebooks when relevant
 - Learning objectives
+- Definitions for new terms before or at first meaningful use, either inline or in a short terminology section
 - Conceptual overview
 - Core equations with plain-language interpretation
 - One or more simulations

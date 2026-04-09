@@ -633,6 +633,7 @@ Every `Verify notebook N` step in this section should include all of the checks 
 4. Pedagogical verification
    - Confirm the notebook states its purpose and learning objective clearly.
    - Confirm the notebook introduces concepts in the intended progression from simple to more complex.
+   - Confirm new terminology is defined before or at first meaningful use, either inline or in a short terminology section.
    - Confirm assumptions and simplifications are stated explicitly.
    - Confirm the notebook includes at least one meaningful simulation and visualization.
    - Confirm the notebook includes a tradeoffs or limitations section.
