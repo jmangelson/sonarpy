@@ -181,6 +181,8 @@ Each notebook should include:
 - Prerequisites and links to earlier notebooks when relevant
 - Learning objectives
 - Definitions for new terms before or at first meaningful use, either inline or in a short terminology section
+- Definitions for abbreviations at first use, even when that first use occurs in a terminology section, for example "Fourier transform (FT)"
+- A "Mathematical Definitions and Relevant Intuition" section when the notebook introduces major new concepts that depend on formal definitions or equations
 - Conceptual overview
 - Core equations with plain-language interpretation
 - One or more simulations
