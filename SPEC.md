@@ -185,6 +185,7 @@ Each notebook should include:
 - A "Mathematical Definitions and Relevant Intuition" section when the notebook introduces major new concepts that depend on formal definitions or equations
 - Conceptual overview
 - Core equations with plain-language interpretation
+- A short statement of what each major figure is meant to show before the figure is referenced or interpreted in surrounding markdown
 - One or more simulations
 - Plots that expose parameter sensitivity
 - Discussion of assumptions and limitations

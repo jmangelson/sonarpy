@@ -636,6 +636,7 @@ Every `Verify notebook N` step in this section should include all of the checks 
    - Confirm new terminology is defined before or at first meaningful use, either inline or in a short terminology section.
    - Confirm abbreviations are expanded at first use, even when that first use occurs in the terminology section.
    - Confirm notebooks introducing major new concepts include a "Mathematical Definitions and Relevant Intuition" section where appropriate.
+   - Confirm the purpose of each major figure is described before that figure is referenced or interpreted in surrounding markdown.
    - Confirm assumptions and simplifications are stated explicitly.
    - Confirm the notebook includes at least one meaningful simulation and visualization.
    - Confirm the notebook includes a tradeoffs or limitations section.
