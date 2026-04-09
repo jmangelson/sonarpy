@@ -653,11 +653,21 @@ Every `Verify notebook N` step in this section should include all of the checks 
    - Confirm the notebook can be understood after reading only its stated prerequisites.
    - Confirm the transition to the next notebook is explicit and accurate.
 
-7. Final user verification
-   - Present the rendered notebook to the user for review after technical verification is complete.
+7. Preliminary git checkpoint
+   - Create a preliminary git commit for the notebook and any directly related helper or documentation updates after technical and pedagogical verification are in good shape.
+   - Push that preliminary state before requesting human review so the review is tied to a concrete shared revision.
+   - Make it explicit in the commit message that the notebook is still pending final verification or approval.
+
+8. Final user verification
+   - Present the rendered notebook to the user for review after technical verification and the preliminary push are complete.
    - Ask the user to check explanation quality, figure readability, legend placement, and teaching clarity.
    - Record any user-requested fixes before marking the notebook verified.
    - Do not begin the next notebook until the user confirms the current notebook is acceptable.
+
+9. Final approval git checkpoint
+   - After user feedback is resolved and the notebook is approved, commit the final accepted notebook state.
+   - Push that final approved state so `main` reflects the notebook revision that passed human verification.
+   - Only then mark the notebook verified and move on to the next notebook.
 
 - [ ] Verify notebook 1 end to end.
 - [ ] Fix any notebook 1 issues found during verification.
