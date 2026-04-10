@@ -636,7 +636,10 @@ Every `Verify notebook N` step in this section should include all of the checks 
    - Confirm new terminology is defined before or at first meaningful use, either inline or in a short terminology section.
    - Confirm abbreviations are expanded at first use, even when that first use occurs in the terminology section.
    - Confirm notebooks introducing major new concepts include a "Mathematical Definitions and Relevant Intuition" section where appropriate.
-   - Confirm the purpose of each major figure is described before that figure is referenced or interpreted in surrounding markdown.
+   - Confirm the purpose of each major figure or animation is described before that visual is referenced or interpreted in surrounding markdown.
+   - Confirm text before a figure or animation states the intended lesson of the visual and may point out what the learner should look at to understand it.
+   - Confirm text after a figure or animation helps the learner interpret the visual, connect its components to the concept, and understand the lesson being taught.
+   - Confirm text around a figure or animation does not describe how the visual was revised, improved, or constructed for teaching purposes.
    - Confirm assumptions and simplifications are stated explicitly.
    - Confirm the notebook includes at least one meaningful simulation and visualization.
    - Confirm the notebook includes a tradeoffs or limitations section.

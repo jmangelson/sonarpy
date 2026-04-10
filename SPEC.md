@@ -185,7 +185,10 @@ Each notebook should include:
 - A "Mathematical Definitions and Relevant Intuition" section when the notebook introduces major new concepts that depend on formal definitions or equations
 - Conceptual overview
 - Core equations with plain-language interpretation
-- A short statement of what each major figure is meant to show before the figure is referenced or interpreted in surrounding markdown
+- A short statement of what each major figure or animation is meant to show before it is referenced or interpreted in surrounding markdown
+- Text before a figure or animation should state the teaching purpose of that visual and may point out what the learner should look at in order to understand it
+- Text after a figure or animation should help the learner interpret the visual, connect its components to the underlying concept, and understand the lesson being taught
+- Text before or after a figure or animation should not describe how the visual was revised, improved, or constructed for teaching purposes; the learner only sees the final version
 - One or more simulations
 - Plots that expose parameter sensitivity
 - Discussion of assumptions and limitations
