@@ -672,23 +672,25 @@ Every `Verify notebook N` step in this section should include all of the checks 
    - Push that final approved state so `main` reflects the notebook revision that passed human verification.
    - Only then mark the notebook verified and move on to the next notebook.
 
-- [ ] Verify notebook 1 end to end.
-- [ ] Fix any notebook 1 issues found during verification.
-- [ ] Stabilize `plotting.py`, `notebook_utils.py`, and `dsp.py` only where notebook 1 verification exposes gaps.
-- [ ] Build notebook 2 completely.
-- [ ] Verify notebook 2 before starting notebook 3.
-- [ ] Fix any notebook 2 issues found during verification.
-- [ ] Build notebook 3 completely.
-- [ ] Verify notebook 3 before starting notebook 4.
-- [ ] Fix any notebook 3 issues found during verification.
-- [ ] Build notebook 4 completely.
-- [ ] Verify notebook 4 before starting notebook 5.
-- [ ] Fix any notebook 4 issues found during verification.
-- [ ] Build notebook 5 completely.
-- [ ] Verify notebook 5 before Phase 1 refactoring.
-- [ ] Fix any notebook 5 issues found during verification.
-- [ ] Refactor duplicated Phase 1 code only after notebooks 1 through 5 are complete and verified.
-- [ ] Validate notebooks 1 through 5 as a complete sequence from a clean environment.
+### Tracking Checklist
+
+- [x] Verify notebook 1 end to end.
+- [x] Fix any notebook 1 issues found during verification.
+- [x] Stabilize `plotting.py`, `notebook_utils.py`, and `dsp.py` only where notebook 1 verification exposes gaps.
+- [x] Build notebook 2 completely.
+- [x] Verify notebook 2 before starting notebook 3.
+- [x] Fix any notebook 2 issues found during verification.
+- [x] Build notebook 3 completely.
+- [x] Verify notebook 3 before starting notebook 4.
+- [x] Fix any notebook 3 issues found during verification.
+- [x] Build notebook 4 completely.
+- [x] Verify notebook 4 before starting notebook 5.
+- [x] Fix any notebook 4 issues found during verification.
+- [x] Build notebook 5 completely.
+- [x] Verify notebook 5 before Phase 1 refactoring.
+- [x] Fix any notebook 5 issues found during verification.
+- [x] Review duplicated Phase 1 code only after notebooks 1 through 5 are complete and verified, and refactor only if it clearly improves reuse without hurting notebook clarity.
+- [x] Validate notebooks 1 through 5 as a complete sequence from a clean environment.
 - [ ] Implement `sonar.py` only after Phase 1 is complete and stable.
 - [ ] Build notebook 6 completely.
 - [ ] Verify notebook 6 before starting notebook 7.
