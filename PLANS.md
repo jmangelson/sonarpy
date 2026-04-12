@@ -694,16 +694,16 @@ Every `Verify notebook N` step in this section should include all of the checks 
 - [x] Fix any notebook 5 issues found during verification.
 - [x] Review duplicated Phase 1 code only after notebooks 1 through 5 are complete and verified, and refactor only if it clearly improves reuse without hurting notebook clarity.
 - [x] Validate notebooks 1 through 5 as a complete sequence from a clean environment.
-- [ ] Implement `sonar.py` only after Phase 1 is complete and stable.
-- [ ] Build notebook 6 completely.
-- [ ] Verify notebook 6 before starting notebook 7.
-- [ ] Fix any notebook 6 issues found during verification.
-- [ ] Build notebook 7 completely.
-- [ ] Verify notebook 7 before starting notebook 8.
-- [ ] Fix any notebook 7 issues found during verification.
-- [ ] Build notebook 8 completely.
-- [ ] Verify notebook 8 before moving to `arrays.py`.
-- [ ] Fix any notebook 8 issues found during verification.
+- [x] Implement `sonar.py` only after Phase 1 is complete and stable.
+- [x] Build notebook 6 completely.
+- [x] Verify notebook 6 before starting notebook 7.
+- [x] Fix any notebook 6 issues found during verification.
+- [x] Build notebook 7 completely.
+- [x] Verify notebook 7 before starting notebook 8.
+- [x] Fix any notebook 7 issues found during verification.
+- [x] Build notebook 8 completely.
+- [x] Verify notebook 8 before moving to `arrays.py`.
+- [x] Fix any notebook 8 issues found during verification.
 - [ ] Implement `arrays.py` only after notebooks 6 through 8 are complete and stable.
 - [ ] Build notebook 9 completely.
 - [ ] Verify notebook 9 before starting notebook 10.
