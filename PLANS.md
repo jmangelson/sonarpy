@@ -642,6 +642,7 @@ Every `Verify notebook N` step in this section should include all of the checks 
    - Confirm text before a figure or animation states the intended lesson of the visual and may point out what the learner should look at to understand it.
    - Confirm text after a figure or animation helps the learner interpret the visual, connect its components to the concept, and understand the lesson being taught.
    - Confirm text around a figure or animation does not describe how the visual was revised, improved, or constructed for teaching purposes.
+   - Confirm the closing next-questions or next-steps text accurately previews the actual focus of the following notebook.
    - Confirm assumptions and simplifications are stated explicitly.
    - Confirm the notebook includes at least one meaningful simulation and visualization.
    - Confirm the notebook includes a tradeoffs or limitations section.

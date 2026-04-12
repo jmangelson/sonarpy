@@ -191,6 +191,7 @@ Each notebook should include:
 - Text before a figure or animation should state the teaching purpose of that visual and may point out what the learner should look at in order to understand it
 - Text after a figure or animation should help the learner interpret the visual, connect its components to the underlying concept, and understand the lesson being taught
 - Text before or after a figure or animation should not describe how the visual was revised, improved, or constructed for teaching purposes; the learner only sees the final version
+- Notebook handoff text at the end of one notebook should accurately preview the actual focus of the following notebook in sequence
 - One or more simulations
 - Plots that expose parameter sensitivity
 - Discussion of assumptions and limitations
